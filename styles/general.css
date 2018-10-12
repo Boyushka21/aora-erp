@@ -10,6 +10,7 @@
 @import url("tooltipster.css");
 @import url("niceselect.css");
 @import url("sidemenu.css");
+@import url("dialog.css");
 @import url("pages.css");
 @import url("module.css");
 
@@ -28,7 +29,7 @@ body{
     font-family:'Open Sans', sans-serif;
     font-weight: 300;
     color: #ffffff;
-    min-width:360px;
+    min-width:400px;
     overflow: hidden !important;
 }
 
@@ -312,7 +313,7 @@ body{
     position:fixed;
     right:0;
     left:250px;
-    z-index:100;
+    z-index:10000;
     display:none;
 }
 #content.expanded .shadow{

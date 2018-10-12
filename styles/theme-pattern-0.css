@@ -1,0 +1,7 @@
+#background .pattern{
+	opacity: 0.8;
+	background-size:contain;
+    background-repeat: no-repeat;
+	background-position:bottom right;
+	background-image:url('http://news.capricorn.ru/wp-content/uploads/2016/07/footer-bg.png');
+}
