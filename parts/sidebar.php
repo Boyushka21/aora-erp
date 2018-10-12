@@ -83,6 +83,30 @@
 		</div>
 		
 		<div class="admin_menu">
+			<!-- TEST -->
+			<style>
+			  .test_timer, .timer-done, .timer-loop {
+				font-size: 20px;
+				color: black;
+				font-weight: bold;
+				padding: 10px;
+			  }
+			
+			  .jst-hours,
+			  .jst-minutes,
+			  .jst-seconds {
+				display:inline-block;
+			  }
+			  .jst-clearDiv {
+				clear: both;
+			  }
+			  .jst-timeout {
+				color: red;
+			  }
+			</style>
+			
+			<div class="test_timer" data-seconds-left="3000"></div>
+			
 			<a href="users.php">Пользователи</a>
 			<a href="admin.php">Администрирование</a>
 		</div>
