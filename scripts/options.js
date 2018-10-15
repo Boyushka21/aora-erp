@@ -294,17 +294,19 @@ $(document).ready(function($) {
 	// Auto popover
 	
 	$('.show_popover').each(function() {
-		$(this).webuiPopover({
+		var popoverToggler = $(this);
+		
+		popoverToggler.webuiPopover({
 			container:'#content .wrapper',
 			animation:'fade',
 			dismissible: true,
 			type:'html',
 			trigger:'click',
-			placement:$(this).data('popover-position'),
-			content:$('#' + $(this).data('popover')),
-			onShow: function($element) {
+			placement:popoverToggler.data('popover-position'),
+			content:$('#' + popoverToggler.data('popover')),
+			onShow: function() {
 				$('.webui-popover-content a').click(function() {
-					//alert('DONE');
+					popoverToggler.webuiPopover('hide');
 				});
 			}
 		});

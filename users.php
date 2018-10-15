@@ -198,14 +198,14 @@
                                         <form class="accordion">
                                             <?php
                                                 $modules = array(
-                                                    'Модуль' => 'Контрагенты ',
-                                                    'Модуль' => 'Финанализ',
-                                                    'Модуль' => 'Строительство',
-                                                    'Модуль' => 'Пользователи',
-                                                    'Система' => 'Доступ к настройкам',
+                                                    array('Модуль', 'Контрагенты'),
+                                                    array('Модуль', 'Финанализ'),
+                                                    array('Модуль', 'Строительство'),
+                                                    array('Модуль', 'Пользователи'),
+                                                    array('Система', 'Доступ к настройкам'),
                                                 );
                                                 
-                                                foreach ($modules as $module_type => $module_name) {
+                                                foreach ($modules as $module) {
                                             ?>
                                                 
                                                     <div class="edit_title toggle_acc">
@@ -213,8 +213,8 @@
                                                             <i class="fas fa-ambulance"></i>
                                                         </div>
                                                         
-                                                        <span><?php echo $module_type; ?></span>
-                                                        <strong><?php echo $module_name; ?></strong>
+                                                        <span><?php echo $module[0]; ?></span>
+                                                        <strong><?php echo $module[1]; ?></strong>
                                                         
                                                         <div class="toggler open"><i class="fal fa-plus-circle"></i></div>
                                                         <div class="toggler close"><i class="fal fa-minus-circle"></i></div>
