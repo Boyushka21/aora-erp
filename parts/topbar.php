@@ -3,7 +3,7 @@
 	
 	<a href="dashboard.php" class="toggle_sidebar button size_is hide_xs hide_s hide_m hide_l left"><i class="fas fa-home"></i></a>
     
-    <a href="dashboard.php" class="logo size_is hide_xxs left">LOGO</a>
+    <a href="dashboard.php" class="logo size_is hide_xxs left">LOGO2</a>
     
     <form class="search left size_is hide_xs hide_xxs">
 		<label class="fld">
