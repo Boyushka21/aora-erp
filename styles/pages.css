@@ -41,6 +41,7 @@
 }
 .form_login .inner .form label.fld input{
     color:#000000;
+	background: #ffffff;
 	border:1px solid rgba(0, 0, 0, 0.2);
 	
 	-moz-border-radius:20px;

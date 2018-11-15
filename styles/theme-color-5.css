@@ -44,6 +44,20 @@ body{
 	background: #ffffff;
 	border-right:1px solid rgba(0, 0, 0, 0.2);
 }
+#sidebar .admin_menu{
+	background: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+#sidebar .admin_menu li{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#sidebar .admin_menu li:last-child{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#sidebar .admin_menu li a i{
+	display:inline-block;
+    width:30px;
+}
 #background .pattern{
     opacity:1;
 }
@@ -228,4 +242,32 @@ label.radiocheck input[type="radio"]:checked:after{
 #module .module_menu li a:hover{
 	color:#ffffff;
 	background:#157efb;
+}
+
+
+
+#module .module_content.module_users .user{
+	background-color:#ffffff;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user:first-child:before {
+	background-color:rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user:after{
+	background-color:rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user .details.name{
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user .edit .edit_user{
+	background: #ffffff;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user .edit .edit_title{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#module .module_content.module_users .user .edit .inner_acc{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }

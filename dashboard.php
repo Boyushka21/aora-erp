@@ -10,7 +10,11 @@
     <div class="wrapper">
     
     <!-- TEST USE ONLY -->
-    
+      
+      <?php
+        
+      ?>
+      
         <label class="fld">
             <div class="sign"><i class="fas fa-user"></i></div>
             <input type="text" class="inp" name="somename" />
@@ -115,6 +119,7 @@
         content goes here <br /> content goes here <br /> content goes here <br />
         content goes here <br /> content goes here <br /> content goes here <br />
                 
+                
         <label class="radiocheck">
             <input type="checkbox" class="www" />
             
@@ -154,6 +159,55 @@
             
             <strong>Запомнить</strong>
         </label>
+        
+        
+  <script>
+    $(document).ready(function() {
+
+
+      $('a.scrollto').bind('click', function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+            offset: 100,
+            scrollElement: $('#content'),
+            //scrollTarget: '#findme',
+            scrollTarget: link.hash,
+        });
+      });
+      
+
+      
+    });
+  </script>
+  
+
+
+  <div class="container">
+    <div class="demo-column">
+      <ul class="mainnav">
+        <li><a href="#p1" class="scrollto">p1</a></li>
+        <li><a href="#p2" class="scrollto">p2</a></li>
+        <li><a href="#p3" class="scrollto">p3</a></li>
+        <li><a href="#p4" class="scrollto">p4</a></li>
+        <li><a href="#p5" class="scrollto">p5</a></li>
+        <li><a href="#p6" class="scrollto">p6</a></li>
+      </ul>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+      
+      <p id="p1">p1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+      <p id="p2">p2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+      <p id="p3">p3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+      <p id="p4">p4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+      <p id="p5">p5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+      <p id="p6">p6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+    </div>
+  </div>
+        
         
     <!-- TEST USE ONLY -->
         

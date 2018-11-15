@@ -3,7 +3,7 @@
 	
 	<a href="dashboard.php" class="toggle_sidebar button size_is hide_xs hide_s hide_m hide_l left"><i class="fas fa-home"></i></a>
     
-    <a href="dashboard.php" class="logo size_is hide_xxs left">LOGO</a>
+    <a href="dashboard.php" class="logo size_is hide_xxs left">LOGO HERE</a>
     
     <form class="search left size_is hide_xs hide_xxs">
 		<label class="fld">
@@ -22,7 +22,7 @@
 		</li>
 		
 		<li>
-			<a href="javascript:;" class="button toggle_cb" data-toggle="quick_options"><i class="fas fa-cog"></i></a>
+			<a href="javascript:;" class="button toggle_cb" data-toggle="quick_options"><i class="fas fa-paint-brush"></i></a>
 			
 			<form class="quick_options hide_me">
 				<div class="inner">
@@ -65,7 +65,7 @@
 				</div>
 				
 				<div class="actions clear_after">
-					<a href="javascript:;" class="bttn bttn_40 bttn_simple left">Настройки</a>
+					<a href="settings.php" class="bttn bttn_40 bttn_simple left">Настройки</a>
 					<button type="submit" name="submit" class="bttn bttn_submit bttn_40 right" disabled="true">Сохранить</button>
 				</div>
 			</form>

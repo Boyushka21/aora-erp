@@ -25,7 +25,10 @@
     <script type="text/javascript" src="scripts/sidemenu.js"></script>
     <script type="text/javascript" src="scripts/equals.js"></script>
     <script type="text/javascript" src="scripts/timer.js"></script>
+    <script type="text/javascript" src="scripts/smoothscroll.js"></script>
     <script type="text/javascript" src="scripts/options.js"></script>
+	<script type="text/javascript" src="scripts/jquery.sortable.js"></script>
+	<script type="text/javascript" src="scripts/jquery.sortable.min.js"></script>	
 	
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/theme-color-<?php echo $settings['user_theme_color']; ?>.css" id="user_theme_color" />

@@ -37,6 +37,8 @@
     position:relative;
     margin:0 20px 40px;
 	text-align: center;
+	width:100px;
+	height:100px;
 }
 #dialog_wrapper .dialog_launchpad a.size_xs,
 #dialog_wrapper .dialog_launchpad a.size_xxs{
@@ -106,3 +108,4 @@
     display:block;
     border-right:0;
 }
+

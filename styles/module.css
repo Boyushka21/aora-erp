@@ -97,6 +97,15 @@
 #module .module_content.module_users .user{
 	position:relative;
 }
+#module .module_content.module_users .user:first-child:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+	background:rgba(255, 255, 255, 0.2);
+}
 #module .module_content.module_users .user:after{
 	content:'';
 	position:absolute;
@@ -175,8 +184,23 @@
 #module .module_content.module_users .user .edit .edit_user{
 	text-align: center;	
     font-size: 14px;
-	padding:10px 20px;
+	padding:10px 70px 10px 20px;
 	background: rgba(255, 255, 255, 0.2);
+	position:relative;
+}
+#module .module_content.module_users .user .edit .edit_user .toggle_cb{
+	display:block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	position:absolute;
+	top:50%;
+	right:5px;
+	margin-top:-15px;
+	font-size:16px;
+}
+#module .module_content.module_users .user .edit .edit_user .toggle_cb:hover{
+	font-size:18px;
 }
 #module .module_content.module_users .user .edit .edit_title{
 	padding:20px 40px 20px 60px;
@@ -233,9 +257,9 @@
 	padding-bottom:20px;
 }
 #module .module_content.module_users .user .edit .inner_acc .edit_item{
-	padding:20px 70px 0 20px;
+	margin:20px 90px 0 20px;
 	position:relative;
-	min-height:60px;
+	min-height:40px;
 }
 #module .module_content.module_users .user .edit .inner_acc .edit_item strong{
 	display:inline-block;
@@ -245,9 +269,12 @@
 }
 #module .module_content.module_users .user .edit .inner_acc .edit_item .switcher{
 	position:absolute;
-	top:20px;
-	right:0;
+	top:0;
+	right:-70px;
+}
+#module .module_content.module_users .user .edit .edit_basic .fld{
+	margin:0 20px;
 }
 #module .module_content.module_users .user .edit .bttn{
-	margin:20px;
+	margin:20px 20px 20px 0;
 }
